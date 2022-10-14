@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-14T21:25:45 IST" name="Default suite" finished-at="2022-10-14T21:26:12 IST" duration-ms="27790">
+    <groups>
+    </groups>
+    <test started-at="2022-10-14T21:25:45 IST" name="Default test" finished-at="2022-10-14T21:26:12 IST" duration-ms="27790">
+      <class name="test.signupAccounntTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.signupAccounntTest@1151e434]" started-at="2022-10-14T21:25:45 IST" name="OpenBrowser" finished-at="2022-10-14T21:26:08 IST" duration-ms="23147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="newsignup()[pri:0, instance:test.signupAccounntTest@1151e434]" started-at="2022-10-14T21:26:08 IST" name="newsignup" finished-at="2022-10-14T21:26:12 IST" duration-ms="3913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsignup -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.signupAccounntTest@1151e434]" started-at="2022-10-14T21:26:12 IST" name="tearDown" finished-at="2022-10-14T21:26:12 IST" duration-ms="666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newsignup status=SUCCESS method=signupAccounntTest.newsignup()[pri:0, instance:test.signupAccounntTest@1151e434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.signupAccounntTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
